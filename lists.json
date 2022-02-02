@@ -136,14 +136,14 @@
         "license": "MIT"
     },
     {
-        "category": "Adult",
+        "category": "Adult content",
         "name": "chadmayfield-my-pihole-blocklists",
         "url": "https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_top1m.list",
         "site_url": "https://github.com/chadmayfield/my-pihole-blocklists",
         "license": "GPLv3"
     },
     {
-        "category": "Adult",
+        "category": "Adult content",
         "name": "Easylist-easylist_adult",
         "url": "https://raw.githubusercontent.com/easylist/easylist/master/easylist_adult/adult_adservers.txt",
         "site_url": "https://easylist.to/",
