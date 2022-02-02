@@ -1,6 +1,7 @@
+## This is a blocklist for AdGuard and Pi-hole which combines many of the best blocklists.
 
 ## 📝 Usage
-Add the following url to your AdGuard or pi-hole blocklists
+Add the following url to your AdGuard or Pi-hole blocklists
 ```
 https://raw.githubusercontent.com/Luois45/DNSBlocklists/main/list.txt
 ```
