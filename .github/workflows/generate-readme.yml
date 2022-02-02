@@ -14,3 +14,4 @@ jobs:
         uses: dineshsonachalam/markdown-autodocs@v1.0.4
         with:
           commit_message: Updated Credits in README
+          categories: '[json-to-html-table,workflow-artifact-table]'
