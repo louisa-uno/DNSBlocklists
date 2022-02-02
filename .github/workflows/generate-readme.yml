@@ -1,0 +1,18 @@
+name: Update Credits in README
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Markdown autodocs
+    - uses: dineshsonachalam/markdown-autodocs@v1.0.4
+      with:
+        commit_author: Luois45 <github@louis45.de>
+        commit_user_email: github@louis45.de
+        commit_message: Updated Credits in README
+        categories: '[code-block,json-to-html-table,workflow-artifact-table]'
