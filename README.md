@@ -3,7 +3,7 @@
 Add ´´ to your AdGuard or pi-hole blocklists
 
 ## 🌟 Credits
-<!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./lists.json) -->
+<!-- MARKDOWN-AUTO-DOCS:START (JSON_TO_HTML_TABLE:src=./lists.json) -->
 <!-- The below code snippet is automatically added from ./lists.json -->
 ```json
 {
