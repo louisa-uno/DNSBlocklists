@@ -1,6 +1,9 @@
 
 ## 📝 Usage
-Add ´´ to your AdGuard or pi-hole blocklists
+Add the following url to your AdGuard or pi-hole blocklists
+```
+https://raw.githubusercontent.com/Luois45/DNSBlocklists/main/list.txt
+```
 
 ## 🌟 Credits
 <!-- MARKDOWN-AUTO-DOCS:START (JSON_TO_HTML_TABLE:src=./lists.json) -->
