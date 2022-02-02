@@ -3,9 +3,7 @@ import os
 import shutil
 
 import requests
-# from github import Github, InputGitAuthor
 
-# config = json.load(open("config.json"))
 lists = json.load(open("lists.json"))
 
 for f in os.listdir():
@@ -39,21 +37,3 @@ for category in os.listdir():
 	full_list += category_list
 with open("list" + ".txt", "w", encoding="utf-8") as f:
 	f.write(full_list)
-
-# def push(path, message, content, branch):
-# 	author = InputGitAuthor("Luois45 - Update lists", "github@louis45.de")
-# 	contents = repo.get_contents(path, )
-# 	repo.update_file(contents.path,
-# 	                 message,
-# 	                 content,
-# 	                 contents.sha,
-# 	                 branch=branch,
-# 	                 author=author)
-
-# repo = Github(
-# 	    config["git_token"]).get_repo("Luois45/DNSBlocklists")
-# 	push(path=".txt",
-# 	     message="Updated DNS blocklists",
-# 	     content=output,
-# 	     branch="update")
-# 	print("\nDNS blocklists to GitHub repository")
