@@ -3645,7 +3645,7 @@
   <link rel="assets" href="https://github.githubassets.com/">
   
 
-  <meta name="request-id" content="0401:2287:220418F:389969F:61FF91F4" data-pjax-transient="true"/><meta name="html-safe-nonce" content="8a3b40a6a5b53a583adae08d0e97fddb26e5c1b7d7e4e25c5109d234586a42c9" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwNDAxOjIyODc6MjIwNDE4RjozODk5NjlGOjYxRkY5MUY0IiwidmlzaXRvcl9pZCI6IjE2Mjk5NTMxMzQyOTE4MTY5NDgiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="6da965045c9d41c6a7fda3bcfcaed6949989f3f65e68c06e1ca553560bf3576a" data-pjax-transient="true"/>
+  <meta name="request-id" content="07C1:426D:16D46EB:1BE44DE:61FFA039" data-pjax-transient="true"/><meta name="html-safe-nonce" content="bad561aa087b2f62db780855003b6ee391650e9f29521eb1b8d64c0cf3fefb72" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwN0MxOjQyNkQ6MTZENDZFQjoxQkU0NERFOjYxRkZBMDM5IiwidmlzaXRvcl9pZCI6IjE5Njc4NjI2MTk3NjcyODM3NjkiLCJyZWdpb25fZWRnZSI6InNlYSIsInJlZ2lvbl9yZW5kZXIiOiJzZWEifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="7cb8bd8ef5d1c673394ef2a52afd41defc44f31317c36fb5862e5775fd8849c3" data-pjax-transient="true"/>
 
     <meta name="hovercard-subject-tag" content="repository:185815507" data-pjax-transient>
 
@@ -3994,7 +3994,7 @@
           spellcheck="false"
           autocomplete="off"
         >
-        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="dfxUYCoYjsVxXOvxxWuDgjsdGTFV4rQH3NtC4KfWljksNp9iGzTK/ceLBk5MZWR1wq7VD6jIP+NRPjYAZxmVcw==" />
+        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="6G11I8VWkxzCoSXCU3gmE/wVR9KeQhoPJGrZSt/DT5gIZxOaib4c4a8q21Ribokjt86daukRPnEQG8cDFVhOoA==" />
         <input type="hidden" class="js-site-search-type-field" name="type" >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
