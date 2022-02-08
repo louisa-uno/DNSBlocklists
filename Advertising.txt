@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2022-02-08T14:58:40.780Z
+! Last modified: 2022-02-08T15:36:50.572Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -22,6 +22,7 @@
 !
 !
 !
+||hetadinh.com^
 ||truetruetruetruetruetruetruetruetruetrue.xyz^
 ||wwlipxritaoo.com^
 ||settlef.com^
@@ -9743,7 +9744,6 @@ vkcdnservice.appspot.com^
 ||heroinnever.com^
 ||herscryptia.info^
 ||hesterinoc.info^
-||hetadinh.com^
 ||hetahien.com^
 ||hetaint.com^
 ||hetapus.com^
@@ -27869,7 +27869,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||conversionfly.com^
 ||convertcart.com^
 ||cookieless-data.com^
-||coralogix.com^
 ||count.ly^
 ||counter.dev^
 ||cphalk.com^
@@ -37924,6 +37923,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||aditizanna.com^
 ||adnex.tech^
 ||adomv.com^
+||adorazanna.com^
 ||adreal.cn^
 ||adrs.sdo.com^
 ||ads.uc.cn^
@@ -40700,14 +40700,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ggtg8.com^
 ||runkao.net^
 ||stunninglover.com^
-||zgbtw.mobi^
-||zyhx.ltd^
-||jipezy.cn^
-||richman100.ltd^
-||astep.info^
-||geoparker.net^
-||sphntyj.cn^
-||mhqx.store^
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
@@ -41087,6 +41079,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||aslro.top^
 ||aspaz.cn^
 ||aspwg.cn^
+||astep.info^
 ||astyk.cn^
 ||atomicfile.cn^
 ||atuehome.cn^
@@ -41801,6 +41794,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||gdzxsoft.cn^
 ||genfar.club^
 ||gengsang.me^
+||geoparker.net^
 ||gfncg.cn^
 ||gggwv.cn^
 ||gh1024.xyz^
@@ -41956,6 +41950,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||jinlianchengwhcm.cn^
 ||jinxiangyu.ltd^
 ||jinyihui.vip^
+||jipezy.cn^
 ||jiucaishuo.cn^
 ||jiuji.ltd^
 ||jiujiinc.top^
@@ -42101,6 +42096,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mexcel.info^
 ||mfagqah.cn^
 ||mgnb.xyz^
+||mhqx.store^
 ||mhtky.cn^
 ||midy.me^
 ||minchikeji.cloud^
@@ -42307,6 +42303,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||rgt0hv5.cn^
 ||rh447.cn^
 ||rhxshop.com^
+||richman100.ltd^
 ||rjhtrjb.cn^
 ||rjnjjin.cn^
 ||rktupt.cn^
@@ -42369,6 +42366,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||songcan.me^
 ||soquan.xyz^
 ||soulshape.cn^
+||sphntyj.cn^
 ||spjxwlkj.com^
 ||spscwlw.cn^
 ||spzxgcw.com^
@@ -42661,6 +42659,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||zdzk0371.cn^
 ||zengwx.cn^
 ||zfw.me^
+||zgbtw.mobi^
 ||zgxieshou.com^
 ||zgyso.cn^
 ||zgystsd.com^
@@ -42717,6 +42716,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||zxyonlybelongstolym.xyz^
 ||zyam.club^
 ||zyezhz.cn^
+||zyhx.ltd^
 ||zyjy.ink^
 ||zzkbsm.cn^
 ||zzuzcy.cloud^
@@ -64647,7 +64647,7 @@ zumobi.com
 # Title: Anudeep's Blacklist
 # Expires: 1 days
 # Hosts contributed by Anudeep <anudeep@protonmail.com>
-# Domain count: 42,367
+# Domain count: 42,517
 # ===================================================================
 0.0.0.0 0001-cab8-4c8c-43de.reporo.net
 0.0.0.0 002-slq-470.mktoresp.com
@@ -107016,6 +107016,156 @@ zumobi.com
 0.0.0.0 www.ads.hyprmx.com
 0.0.0.0 mediate-android-b45.hyprmx.com
 0.0.0.0 hyprmx.com
+0.0.0.0 apphacks.co
+0.0.0.0 hackdash.co
+0.0.0.0 gnomicbook.com
+0.0.0.0 gnomic.tv
+0.0.0.0 gnomicfun.com
+0.0.0.0 blotsisop.com
+0.0.0.0 icarusmarketlink.com
+0.0.0.0 deepwebsiteslinks.com
+0.0.0.0 cleversearch.info
+0.0.0.0 crazycybertech.info
+0.0.0.0 gethacks.net
+0.0.0.0 free-apps.me
+0.0.0.0 unc0ver.vip
+0.0.0.0 Checkra1n.cc
+0.0.0.0 electramote.com
+0.0.0.0 checkrain.org
+0.0.0.0 jailbreaktoday.com
+0.0.0.0 oginject.co
+0.0.0.0 hamoza.us
+0.0.0.0 lidlcustomssrvice.de
+0.0.0.0 zollweb.com
+0.0.0.0 zollapp.com
+0.0.0.0 deutshpost-zollgebuhren.com
+0.0.0.0 postoffice-fees.com
+0.0.0.0 dhl-zollgebuhren.de
+0.0.0.0 logodesignconcepts.com
+0.0.0.0 celebratedeals.us
+0.0.0.0 rossmanndealls.de
+0.0.0.0 lbtikh.com
+0.0.0.0 surveyxs.cyou
+0.0.0.0 lennoxrussia.su
+0.0.0.0 ideabanner.com
+0.0.0.0 agentursicher.com
+0.0.0.0 fantules.com
+0.0.0.0 wedcesac.com
+0.0.0.0 bremennetzwerk.com
+0.0.0.0 aligestio.com
+0.0.0.0 lorenapruiz.com
+0.0.0.0 battertr.eu.org
+0.0.0.0 reinstatementcurbs.com
+0.0.0.0 strengthensacute.com
+0.0.0.0 termcentre.com
+0.0.0.0 recycledirt.com
+0.0.0.0 bushelflavorsome.com
+0.0.0.0 olympicname.com
+0.0.0.0 scratchfolks.com
+0.0.0.0 placerider.com
+0.0.0.0 sippingfield.com
+0.0.0.0 unifiedlayer.com
+0.0.0.0 undounlay.com
+0.0.0.0 taleragnovice.com
+0.0.0.0 airplanecohort.com
+0.0.0.0 admins.ws
+0.0.0.0 admins-websecurity.at
+0.0.0.0 admins-websecurity.com
+0.0.0.0 admins-websecurity.de
+0.0.0.0 admins-websecurity.net
+0.0.0.0 aibot.org
+0.0.0.0 allspammers.com
+0.0.0.0 anzeigen-sex.de
+0.0.0.0 audited.de
+0.0.0.0 backscatterer.org
+0.0.0.0 bayernpartei-oberpfalz.de
+0.0.0.0 bayernpartei.tv
+0.0.0.0 blacklistalert.org
+0.0.0.0 blocklisted.net
+0.0.0.0 bpcham.de
+0.0.0.0 bullshitjournal.com
+0.0.0.0 cart00nies.org
+0.0.0.0 cartoonies.org
+0.0.0.0 chronotime.de
+0.0.0.0 creditlevel.org
+0.0.0.0 dnsdl.org
+0.0.0.0 edir.de
+0.0.0.0 emailabuse.de
+0.0.0.0 emailmaster.eu
+0.0.0.0 emailmaster.org
+0.0.0.0 exwaehler.de
+0.0.0.0 exkunden.info
+0.0.0.0 gemeinderat.net
+0.0.0.0 hostdeluxe.de
+0.0.0.0 hostedserver.de
+0.0.0.0 jamiebaillie.net
+0.0.0.0 justmail.eu
+0.0.0.0 lautenschlager.com
+0.0.0.0 lautenschlager.eu
+0.0.0.0 lautenschlager.net
+0.0.0.0 legaltodo.com
+0.0.0.0 life-changing-sex.eu
+0.0.0.0 mailabuse.de
+0.0.0.0 mailabuse.eu
+0.0.0.0 mailagency.net
+0.0.0.0 maileimer.de
+0.0.0.0 mailfirewall.de
+0.0.0.0 mailhotline.de
+0.0.0.0 mailhotline.eu
+0.0.0.0 mailpolicy.de
+0.0.0.0 mailpolicy.eu
+0.0.0.0 mailpolicy.org
+0.0.0.0 mailterminal.de
+0.0.0.0 motoringnostalgia.com
+0.0.0.0 nospamgooglemail.com
+0.0.0.0 nospams.eu
+0.0.0.0 perserbaby.de
+0.0.0.0 perserparadies.de
+0.0.0.0 remove-this.com
+0.0.0.0 removehotmail.com
+0.0.0.0 removeverizon.net
+0.0.0.0 removeyahoo.com
+0.0.0.0 revmoorn.com
+0.0.0.0 scg-bs.com
+0.0.0.0 sendercert.com
+0.0.0.0 securitystatus.de
+0.0.0.0 sendercert.de
+0.0.0.0 sendercert.eu
+0.0.0.0 sendercert.net
+0.0.0.0 servebbs.org
+0.0.0.0 spamalarm.de
+0.0.0.0 spamfrei.org
+0.0.0.0 spamsucks.de
+0.0.0.0 spamsucks.eu
+0.0.0.0 spamtrap.eu
+0.0.0.0 staatsraeson.de
+0.0.0.0 staatsregierung.net
+0.0.0.0 stadtamt.net
+0.0.0.0 stadtgemeinde.org
+0.0.0.0 sunblue.de
+0.0.0.0 swissox.ch
+0.0.0.0 swissox.com
+0.0.0.0 swissox.de
+0.0.0.0 swissox.net
+0.0.0.0 swissox.org
+0.0.0.0 tanisc.com
+0.0.0.0 triosex.de
+0.0.0.0 trustlevel.org
+0.0.0.0 uceprotect.at
+0.0.0.0 uceprotect.ch
+0.0.0.0 uceprotect.com
+0.0.0.0 uceprotect.de
+0.0.0.0 uceprotect.eu
+0.0.0.0 uceprotect.li
+0.0.0.0 uceprotect.net
+0.0.0.0 uceprotect.org
+0.0.0.0 undelivered.org
+0.0.0.0 viruslab.de
+0.0.0.0 visaonlinesecure.com
+0.0.0.0 wahlen-bayern.de
+0.0.0.0 welcometocornerstone.com
+0.0.0.0 whitelist.eu
+0.0.0.0 whitelisted.org
 
 # Title: hostsVN
 # Last modified: 05 Feb 2022 11:11 UTC+7
