@@ -45392,6 +45392,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||8574b6a733f1de.com^
 ||864feb57ruary.com^
 ||86a6b542l7.com^
+||86b16730f8.com^
 ||86cb1dcb13ba5a1a.com^
 ||86f4fd3b507f774.com^
 ||87159d7b62fc885.com^
@@ -47651,6 +47652,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||calculatorconceivenonetheless.com^
 ||callcreateabash.com^
 ||callelundotre.xyz^
+||calmlydung.com^
 ||calumnythreaten.com^
 ||calvali.com^
 ||camads.net^
@@ -49298,6 +49300,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dukagrygro.com^
 ||dukirliaon.com^
 ||dulillipupan.com^
+||dulombwwfm.com^
 ||dumbpop.com^
 ||dummyreopentypes.com^
 ||dumpersgoofed.com^
@@ -50692,6 +50695,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||gjqhufkamcoc.com^
 ||gjw5qbyn93b8.com^
 ||gk8j5woqk26f.com^
+||gkatxaoerueusa.com^
+||gkatxaoerueusa.top^
 ||gkefsixxlzhn.com^
 ||gkgojxjucutvnt.com^
 ||gkidgpdvpe.xyz^
@@ -51054,6 +51059,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||gyfumobo.com^
 ||gyluheshy.com^
 ||gynax.com^
+||gypsiedjilt.com^
 ||gyqevddwaha.com^
 ||gysapiny.com^
 ||gytychuna.com^
@@ -52018,6 +52024,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||java8.xyz^
 ||javacript.tk^
 ||javgg.eu^
+||javtgudy.xyz^
 ||javvvvvv.xyz^
 ||jawsfixture.com^
 ||jawsjackson.com^
@@ -52032,6 +52039,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||jcqwzssqks.com^
 ||jcrlrwwosud.xyz^
 ||jcwuzktevijp.com^
+||jdbzurmhiixqm.com^
 ||jdoqocy.com^
 ||jdufvnoytl.com^
 ||jdzbcdnd.com^
@@ -52129,6 +52137,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||jnxm2.com^
 ||joastous.com^
 ||joawapti.net^
+||joawwtwzeoas.com^
 ||jobsyndicate.com^
 ||jockeryfgtu.club^
 ||jodellbrought.pro^
@@ -52633,6 +52642,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||larrenworld.pro^
 ||las4srv.com^
 ||lashquivercakes.com^
+||lashsketch.com^
 ||lasticalsdeb.xyz^
 ||lasyowayrzgv.com^
 ||lataurir.com^
@@ -52866,6 +52876,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||llq9q2lacr.com^
 ||llqd75c56i.com^
 ||lltiukmeposi.one^
+||llyxtecgcmhaqd.top^
 ||lmmcyfkmktnoel.com^
 ||lmn-pou-win.com^
 ||lmyiwaakn.com^
@@ -52916,6 +52927,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||loodyas.com^
 ||loohiwez.net^
 ||lookandfind.me^
+||lookereras.casa^
 ||looksthrilled.com^
 ||looluchu.com^
 ||looneyads.com^
@@ -53182,6 +53194,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||materialisticinformal.com^
 ||mathads.com^
 ||mathafuda.pro^
+||matildawu.online^
 ||mation.xyz^
 ||mationen.club^
 ||matiro.com^
@@ -55148,6 +55161,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||placedbookmen.com^
 ||placquecatella.com^
 ||plaguealacritytwitter.com^
+||plaguemanipulatedrag.com^
 ||plaicecaught.com^
 ||plaicenaive.com^
 ||plaintfarrel.com^
@@ -56814,6 +56828,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||sbmrwzkwshit.com^
 ||sbroughhig.info^
 ||sbuildfor.com^
+||scallionlaziness.com^
 ||scamblefeedman.com^
 ||scammerbrawl.com^
 ||scandalhands.com^
@@ -57688,6 +57703,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||subpracted.xyz^
 ||subqueriessalutationcurtain.com^
 ||subscriberpursuehum.com^
+||subtlepeel.com^
 ||suburbdiscernbreeder.com^
 ||succeedkid.com^
 ||succeedscene.com^
@@ -59320,6 +59336,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||wdeliv.net^
 ||wdroweavewerre.xyz^
 ||weaponsort.club^
+||weapors.com^
 ||weaselfundamental.com^
 ||weaveradrenaline.com^
 ||web-bars.com^
@@ -60128,6 +60145,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||zayac2volk11.com^
 ||zazennef.com^
 ||zazerygu.pro^
+||zbwkapoit.com^
 ||zcode7.me^
 ||zcpmenyq.com^
 ||zctibmvmbmev.com^
@@ -126044,10 +126062,6 @@ zumobi.com
 
 # [bksn.se]
 127.0.0.1 us.bksn.se
-
-# [blinkreceipt.com]
-127.0.0.1 licensing.blinkreceipt.com
-127.0.0.1 sdk-resources.blinkreceipt.com
 
 # [blismedia.com]
 127.0.0.1 tr.blismedia.com
