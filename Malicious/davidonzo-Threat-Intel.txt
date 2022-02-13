@@ -150,7 +150,7 @@
   <link rel="assets" href="https://github.githubassets.com/">
   
 
-  <meta name="request-id" content="0401:29A1:2EF40C:4DB9C5:6208A2E3" data-pjax-transient="true"/><meta name="html-safe-nonce" content="7bc0e38a102abaf225cad375b920f96c9099a87301b57443365c3abdbbf3d2b3" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwNDAxOjI5QTE6MkVGNDBDOjREQjlDNTo2MjA4QTJFMyIsInZpc2l0b3JfaWQiOiIzMDQ1MTM4MDU3MDEzOTEwNzUiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="3f83418f51e7c4da713f10891292db064fbb7ef13c4eb888b0630e66346e9638" data-pjax-transient="true"/>
+  <meta name="request-id" content="0441:8FB1:115E09:181C28:6208B008" data-pjax-transient="true"/><meta name="html-safe-nonce" content="4655f29f653f5409a0a2ac43b3d1cdd84ea2c48798fdad13efc57ecb316c53fc" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwNDQxOjhGQjE6MTE1RTA5OjE4MUMyODo2MjA4QjAwOCIsInZpc2l0b3JfaWQiOiI1MDY0ODM5NjUyODc2NzkxODE2IiwicmVnaW9uX2VkZ2UiOiJzZWEiLCJyZWdpb25fcmVuZGVyIjoic2VhIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="3c7ae48ab27a61532566ed52ec2616f12ffecd1030f35e53a1068d2a5eb1223e" data-pjax-transient="true"/>
 
     <meta name="hovercard-subject-tag" content="repository:185815507" data-pjax-transient>
 
@@ -499,7 +499,7 @@
           spellcheck="false"
           autocomplete="off"
         >
-        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="1Fzj3F9UQlG38vZKZx5cJnmUm3Z65H+FUMM+qhHkt13QLovU4RT5bfIs81FC/XM3YPLK3LnhwyKlujLPi0abpA==" />
+        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="iPd5XknNjad9aDVE6HvmVSzqZzczLoJ0erQiedPpGlagGuVfjxkNs1Q7m71KzToDeApstflWPgUbmto/eiXyrA==" />
         <input type="hidden" class="js-site-search-type-field" name="type" >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
@@ -1003,7 +1003,7 @@
 
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/davidonzo/Threat-Intel/blob/d663945f3dd865116339a9c2147739bdc9374e4a/lists/latestdomains.txt">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/davidonzo/Threat-Intel/blob/15c99bf71c94b7689b23c6bc1e44841295a96998/lists/latestdomains.txt">Permalink</a>
 
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
@@ -1194,7 +1194,7 @@
 
 </clipboard-copy>            </li>
             <li>
-              <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/davidonzo/Threat-Intel/blob/d663945f3dd865116339a9c2147739bdc9374e4a/lists/latestdomains.txt" data-view-component="true" class="dropdown-item cursor-pointer">
+              <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/davidonzo/Threat-Intel/blob/15c99bf71c94b7689b23c6bc1e44841295a96998/lists/latestdomains.txt" data-view-component="true" class="dropdown-item cursor-pointer">
     
                 <span class="d-flex flex-items-baseline">
                   <span class="flex-auto">Copy permalink</span>
@@ -1222,7 +1222,7 @@
   
 </div></div>
 
-    <include-fragment src="/davidonzo/Threat-Intel/spoofed_commit_check/d663945f3dd865116339a9c2147739bdc9374e4a" data-test-selector="spoofed-commit-check"></include-fragment>
+    <include-fragment src="/davidonzo/Threat-Intel/spoofed_commit_check/15c99bf71c94b7689b23c6bc1e44841295a96998" data-test-selector="spoofed-commit-check"></include-fragment>
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
       <include-fragment src="/davidonzo/Threat-Intel/contributors/master/lists/latestdomains.txt" class="commit-loader">
@@ -1255,7 +1255,7 @@
 
       <span class="file-mode" title="File mode">executable file</span>
       <span class="file-info-divider"></span>
-      738 lines (738 sloc)
+      737 lines (737 sloc)
       <span class="file-info-divider"></span>
     14.2 KB
   </div>
@@ -1264,8 +1264,8 @@
       
 
     <div class="BtnGroup">
-      <a data-permalink-href="/davidonzo/Threat-Intel/raw/d663945f3dd865116339a9c2147739bdc9374e4a/lists/latestdomains.txt" href="/davidonzo/Threat-Intel/raw/master/lists/latestdomains.txt" id="raw-url" data-view-component="true" class="js-permalink-replaceable-link btn-sm btn BtnGroup-item">  Raw
-</a>        <a data-permalink-href="/davidonzo/Threat-Intel/blame/d663945f3dd865116339a9c2147739bdc9374e4a/lists/latestdomains.txt" href="/davidonzo/Threat-Intel/blame/master/lists/latestdomains.txt" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link btn-sm btn BtnGroup-item">  Blame
+      <a data-permalink-href="/davidonzo/Threat-Intel/raw/15c99bf71c94b7689b23c6bc1e44841295a96998/lists/latestdomains.txt" href="/davidonzo/Threat-Intel/raw/master/lists/latestdomains.txt" id="raw-url" data-view-component="true" class="js-permalink-replaceable-link btn-sm btn BtnGroup-item">  Raw
+</a>        <a data-permalink-href="/davidonzo/Threat-Intel/blame/15c99bf71c94b7689b23c6bc1e44841295a96998/lists/latestdomains.txt" href="/davidonzo/Threat-Intel/blame/master/lists/latestdomains.txt" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link btn-sm btn BtnGroup-item">  Blame
 </a>    </div>
 
     <div>
@@ -1399,7 +1399,7 @@
         </tr>
         <tr>
           <td id="L10" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="10"></td>
-          <td id="LC10" class="blob-code blob-code-inner js-file-line"># Generated at: 2022-02-12 08:02:35                                   #</td>
+          <td id="LC10" class="blob-code blob-code-inner js-file-line"># Generated at: 2022-02-13 08:02:14                                   #</td>
         </tr>
         <tr>
           <td id="L11" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="11"></td>
@@ -4067,251 +4067,247 @@
         </tr>
         <tr>
           <td id="L677" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="677"></td>
-          <td id="LC677" class="blob-code blob-code-inner js-file-line">tuttori.com</td>
+          <td id="LC677" class="blob-code blob-code-inner js-file-line">tuzdan.com.sa</td>
         </tr>
         <tr>
           <td id="L678" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="678"></td>
-          <td id="LC678" class="blob-code blob-code-inner js-file-line">tuzdan.com.sa</td>
+          <td id="LC678" class="blob-code blob-code-inner js-file-line">tvjovemhits.com</td>
         </tr>
         <tr>
           <td id="L679" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="679"></td>
-          <td id="LC679" class="blob-code blob-code-inner js-file-line">tvjovemhits.com</td>
+          <td id="LC679" class="blob-code blob-code-inner js-file-line">tv.muslimconnectiontv.org</td>
         </tr>
         <tr>
           <td id="L680" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="680"></td>
-          <td id="LC680" class="blob-code blob-code-inner js-file-line">tv.muslimconnectiontv.org</td>
+          <td id="LC680" class="blob-code blob-code-inner js-file-line">ubuntu-inc.com</td>
         </tr>
         <tr>
           <td id="L681" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="681"></td>
-          <td id="LC681" class="blob-code blob-code-inner js-file-line">ubuntu-inc.com</td>
+          <td id="LC681" class="blob-code blob-code-inner js-file-line">ulace.com.mx</td>
         </tr>
         <tr>
           <td id="L682" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="682"></td>
-          <td id="LC682" class="blob-code blob-code-inner js-file-line">ulace.com.mx</td>
+          <td id="LC682" class="blob-code blob-code-inner js-file-line">umami-learning.com</td>
         </tr>
         <tr>
           <td id="L683" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="683"></td>
-          <td id="LC683" class="blob-code blob-code-inner js-file-line">umami-learning.com</td>
+          <td id="LC683" class="blob-code blob-code-inner js-file-line">unitedforher.flapbead.com</td>
         </tr>
         <tr>
           <td id="L684" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="684"></td>
-          <td id="LC684" class="blob-code blob-code-inner js-file-line">unitedforher.flapbead.com</td>
+          <td id="LC684" class="blob-code blob-code-inner js-file-line">universalenterprises-epc.com</td>
         </tr>
         <tr>
           <td id="L685" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="685"></td>
-          <td id="LC685" class="blob-code blob-code-inner js-file-line">universalenterprises-epc.com</td>
+          <td id="LC685" class="blob-code blob-code-inner js-file-line">uposit.me</td>
         </tr>
         <tr>
           <td id="L686" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="686"></td>
-          <td id="LC686" class="blob-code blob-code-inner js-file-line">uposit.me</td>
+          <td id="LC686" class="blob-code blob-code-inner js-file-line">upwportugal.com</td>
         </tr>
         <tr>
           <td id="L687" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="687"></td>
-          <td id="LC687" class="blob-code blob-code-inner js-file-line">upwportugal.com</td>
+          <td id="LC687" class="blob-code blob-code-inner js-file-line">urielcoffee.com</td>
         </tr>
         <tr>
           <td id="L688" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="688"></td>
-          <td id="LC688" class="blob-code blob-code-inner js-file-line">urielcoffee.com</td>
+          <td id="LC688" class="blob-code blob-code-inner js-file-line">valeryone.com</td>
         </tr>
         <tr>
           <td id="L689" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="689"></td>
-          <td id="LC689" class="blob-code blob-code-inner js-file-line">valeryone.com</td>
+          <td id="LC689" class="blob-code blob-code-inner js-file-line">valtyca.com</td>
         </tr>
         <tr>
           <td id="L690" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="690"></td>
-          <td id="LC690" class="blob-code blob-code-inner js-file-line">valtyca.com</td>
+          <td id="LC690" class="blob-code blob-code-inner js-file-line">vaos.com.co</td>
         </tr>
         <tr>
           <td id="L691" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="691"></td>
-          <td id="LC691" class="blob-code blob-code-inner js-file-line">vaos.com.co</td>
+          <td id="LC691" class="blob-code blob-code-inner js-file-line">vavis.co.in</td>
         </tr>
         <tr>
           <td id="L692" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="692"></td>
-          <td id="LC692" class="blob-code blob-code-inner js-file-line">vavis.co.in</td>
+          <td id="LC692" class="blob-code blob-code-inner js-file-line">vectordon.com</td>
         </tr>
         <tr>
           <td id="L693" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="693"></td>
-          <td id="LC693" class="blob-code blob-code-inner js-file-line">vectordon.com</td>
+          <td id="LC693" class="blob-code blob-code-inner js-file-line">vectosign.com</td>
         </tr>
         <tr>
           <td id="L694" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="694"></td>
-          <td id="LC694" class="blob-code blob-code-inner js-file-line">vectosign.com</td>
+          <td id="LC694" class="blob-code blob-code-inner js-file-line">veniedu.com</td>
         </tr>
         <tr>
           <td id="L695" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="695"></td>
-          <td id="LC695" class="blob-code blob-code-inner js-file-line">veniedu.com</td>
+          <td id="LC695" class="blob-code blob-code-inner js-file-line">vicssa.us</td>
         </tr>
         <tr>
           <td id="L696" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="696"></td>
-          <td id="LC696" class="blob-code blob-code-inner js-file-line">vicssa.us</td>
+          <td id="LC696" class="blob-code blob-code-inner js-file-line">villalonavala.in</td>
         </tr>
         <tr>
           <td id="L697" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="697"></td>
-          <td id="LC697" class="blob-code blob-code-inner js-file-line">villalonavala.in</td>
+          <td id="LC697" class="blob-code blob-code-inner js-file-line">vinaychoithani.com</td>
         </tr>
         <tr>
           <td id="L698" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="698"></td>
-          <td id="LC698" class="blob-code blob-code-inner js-file-line">vinaychoithani.com</td>
+          <td id="LC698" class="blob-code blob-code-inner js-file-line">vintagegarage.xyz</td>
         </tr>
         <tr>
           <td id="L699" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="699"></td>
-          <td id="LC699" class="blob-code blob-code-inner js-file-line">vintagegarage.xyz</td>
+          <td id="LC699" class="blob-code blob-code-inner js-file-line">virtualmarts.com</td>
         </tr>
         <tr>
           <td id="L700" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="700"></td>
-          <td id="LC700" class="blob-code blob-code-inner js-file-line">virtualmarts.com</td>
+          <td id="LC700" class="blob-code blob-code-inner js-file-line">vitaenterprises.in</td>
         </tr>
         <tr>
           <td id="L701" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="701"></td>
-          <td id="LC701" class="blob-code blob-code-inner js-file-line">vitaenterprises.in</td>
+          <td id="LC701" class="blob-code blob-code-inner js-file-line">vitaway.org</td>
         </tr>
         <tr>
           <td id="L702" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="702"></td>
-          <td id="LC702" class="blob-code blob-code-inner js-file-line">vitaway.org</td>
+          <td id="LC702" class="blob-code blob-code-inner js-file-line">volt.delivery</td>
         </tr>
         <tr>
           <td id="L703" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="703"></td>
-          <td id="LC703" class="blob-code blob-code-inner js-file-line">volt.delivery</td>
+          <td id="LC703" class="blob-code blob-code-inner js-file-line">voxelinfosystem.com.np</td>
         </tr>
         <tr>
           <td id="L704" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="704"></td>
-          <td id="LC704" class="blob-code blob-code-inner js-file-line">voxelinfosystem.com.np</td>
+          <td id="LC704" class="blob-code blob-code-inner js-file-line">vsldestudio.net</td>
         </tr>
         <tr>
           <td id="L705" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="705"></td>
-          <td id="LC705" class="blob-code blob-code-inner js-file-line">vsldestudio.net</td>
+          <td id="LC705" class="blob-code blob-code-inner js-file-line">vulkanbonus.drtrclab.in</td>
         </tr>
         <tr>
           <td id="L706" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="706"></td>
-          <td id="LC706" class="blob-code blob-code-inner js-file-line">vulkanbonus.drtrclab.in</td>
+          <td id="LC706" class="blob-code blob-code-inner js-file-line">vulkanspinbonus.shaadii.in</td>
         </tr>
         <tr>
           <td id="L707" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="707"></td>
-          <td id="LC707" class="blob-code blob-code-inner js-file-line">vulkanspinbonus.shaadii.in</td>
+          <td id="LC707" class="blob-code blob-code-inner js-file-line">vulkanwin.techibandhu.com</td>
         </tr>
         <tr>
           <td id="L708" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="708"></td>
-          <td id="LC708" class="blob-code blob-code-inner js-file-line">vulkanwin.techibandhu.com</td>
+          <td id="LC708" class="blob-code blob-code-inner js-file-line">wanaka-portal.uat.lk</td>
         </tr>
         <tr>
           <td id="L709" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="709"></td>
-          <td id="LC709" class="blob-code blob-code-inner js-file-line">wanaka-portal.uat.lk</td>
+          <td id="LC709" class="blob-code blob-code-inner js-file-line">wapbuzz.in</td>
         </tr>
         <tr>
           <td id="L710" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="710"></td>
-          <td id="LC710" class="blob-code blob-code-inner js-file-line">wapbuzz.in</td>
+          <td id="LC710" class="blob-code blob-code-inner js-file-line">wapine.com</td>
         </tr>
         <tr>
           <td id="L711" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="711"></td>
-          <td id="LC711" class="blob-code blob-code-inner js-file-line">wapine.com</td>
+          <td id="LC711" class="blob-code blob-code-inner js-file-line">warehouselao.com</td>
         </tr>
         <tr>
           <td id="L712" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="712"></td>
-          <td id="LC712" class="blob-code blob-code-inner js-file-line">warehouselao.com</td>
+          <td id="LC712" class="blob-code blob-code-inner js-file-line">wearjora.com</td>
         </tr>
         <tr>
           <td id="L713" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="713"></td>
-          <td id="LC713" class="blob-code blob-code-inner js-file-line">wearjora.com</td>
+          <td id="LC713" class="blob-code blob-code-inner js-file-line">webonclicks.com.au</td>
         </tr>
         <tr>
           <td id="L714" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="714"></td>
-          <td id="LC714" class="blob-code blob-code-inner js-file-line">webonclicks.com.au</td>
+          <td id="LC714" class="blob-code blob-code-inner js-file-line">website.globalcampworld.com</td>
         </tr>
         <tr>
           <td id="L715" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="715"></td>
-          <td id="LC715" class="blob-code blob-code-inner js-file-line">website.globalcampworld.com</td>
+          <td id="LC715" class="blob-code blob-code-inner js-file-line">webtrader.co</td>
         </tr>
         <tr>
           <td id="L716" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="716"></td>
-          <td id="LC716" class="blob-code blob-code-inner js-file-line">webtrader.co</td>
+          <td id="LC716" class="blob-code blob-code-inner js-file-line">weddingphotographerinagra.com</td>
         </tr>
         <tr>
           <td id="L717" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="717"></td>
-          <td id="LC717" class="blob-code blob-code-inner js-file-line">weddingphotographerinagra.com</td>
+          <td id="LC717" class="blob-code blob-code-inner js-file-line">weddingphotographyjaipur.com</td>
         </tr>
         <tr>
           <td id="L718" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="718"></td>
-          <td id="LC718" class="blob-code blob-code-inner js-file-line">weddingphotographyjaipur.com</td>
+          <td id="LC718" class="blob-code blob-code-inner js-file-line">weiterbildungs-shop.com</td>
         </tr>
         <tr>
           <td id="L719" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="719"></td>
-          <td id="LC719" class="blob-code blob-code-inner js-file-line">weiterbildungs-shop.com</td>
+          <td id="LC719" class="blob-code blob-code-inner js-file-line">wesa.com.ar</td>
         </tr>
         <tr>
           <td id="L720" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="720"></td>
-          <td id="LC720" class="blob-code blob-code-inner js-file-line">wesa.com.ar</td>
+          <td id="LC720" class="blob-code blob-code-inner js-file-line">whotnews.com.ng</td>
         </tr>
         <tr>
           <td id="L721" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="721"></td>
-          <td id="LC721" class="blob-code blob-code-inner js-file-line">whotnews.com.ng</td>
+          <td id="LC721" class="blob-code blob-code-inner js-file-line">wibengineering.com</td>
         </tr>
         <tr>
           <td id="L722" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="722"></td>
-          <td id="LC722" class="blob-code blob-code-inner js-file-line">wibengineering.com</td>
+          <td id="LC722" class="blob-code blob-code-inner js-file-line">wonderresponsive.in</td>
         </tr>
         <tr>
           <td id="L723" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="723"></td>
-          <td id="LC723" class="blob-code blob-code-inner js-file-line">wonderresponsive.in</td>
+          <td id="LC723" class="blob-code blob-code-inner js-file-line">woo.mainsaildata.com</td>
         </tr>
         <tr>
           <td id="L724" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="724"></td>
-          <td id="LC724" class="blob-code blob-code-inner js-file-line">woo.mainsaildata.com</td>
+          <td id="LC724" class="blob-code blob-code-inner js-file-line">wpdev.myprojectstaging.com</td>
         </tr>
         <tr>
           <td id="L725" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="725"></td>
-          <td id="LC725" class="blob-code blob-code-inner js-file-line">wpdev.myprojectstaging.com</td>
+          <td id="LC725" class="blob-code blob-code-inner js-file-line">wp-projects.xyz</td>
         </tr>
         <tr>
           <td id="L726" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="726"></td>
-          <td id="LC726" class="blob-code blob-code-inner js-file-line">wp-projects.xyz</td>
+          <td id="LC726" class="blob-code blob-code-inner js-file-line">wptest.softwave.lk</td>
         </tr>
         <tr>
           <td id="L727" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="727"></td>
-          <td id="LC727" class="blob-code blob-code-inner js-file-line">wptest.softwave.lk</td>
+          <td id="LC727" class="blob-code blob-code-inner js-file-line">www.chrelisa.com</td>
         </tr>
         <tr>
           <td id="L728" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="728"></td>
-          <td id="LC728" class="blob-code blob-code-inner js-file-line">www.chrelisa.com</td>
+          <td id="LC728" class="blob-code blob-code-inner js-file-line">www.diplomadomedicosgenerales.com</td>
         </tr>
         <tr>
           <td id="L729" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="729"></td>
-          <td id="LC729" class="blob-code blob-code-inner js-file-line">www.diplomadomedicosgenerales.com</td>
+          <td id="LC729" class="blob-code blob-code-inner js-file-line">www.ninevehtrust.org.uk</td>
         </tr>
         <tr>
           <td id="L730" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="730"></td>
-          <td id="LC730" class="blob-code blob-code-inner js-file-line">www.ninevehtrust.org.uk</td>
+          <td id="LC730" class="blob-code blob-code-inner js-file-line">xcelvationsjr.com</td>
         </tr>
         <tr>
           <td id="L731" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="731"></td>
-          <td id="LC731" class="blob-code blob-code-inner js-file-line">xcelvationsjr.com</td>
+          <td id="LC731" class="blob-code blob-code-inner js-file-line">xcoolwunmigroups.com.ng</td>
         </tr>
         <tr>
           <td id="L732" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="732"></td>
-          <td id="LC732" class="blob-code blob-code-inner js-file-line">xcoolwunmigroups.com.ng</td>
+          <td id="LC732" class="blob-code blob-code-inner js-file-line">xenergi.net</td>
         </tr>
         <tr>
           <td id="L733" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="733"></td>
-          <td id="LC733" class="blob-code blob-code-inner js-file-line">xenergi.net</td>
+          <td id="LC733" class="blob-code blob-code-inner js-file-line">yates.ticondigital.com</td>
         </tr>
         <tr>
           <td id="L734" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="734"></td>
-          <td id="LC734" class="blob-code blob-code-inner js-file-line">yates.ticondigital.com</td>
+          <td id="LC734" class="blob-code blob-code-inner js-file-line">zaparetech.com</td>
         </tr>
         <tr>
           <td id="L735" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="735"></td>
-          <td id="LC735" class="blob-code blob-code-inner js-file-line">zaparetech.com</td>
+          <td id="LC735" class="blob-code blob-code-inner js-file-line">zero61drone.com.br</td>
         </tr>
         <tr>
           <td id="L736" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="736"></td>
-          <td id="LC736" class="blob-code blob-code-inner js-file-line">zero61drone.com.br</td>
+          <td id="LC736" class="blob-code blob-code-inner js-file-line">zpdesigner.sigmaitbs.com</td>
         </tr>
         <tr>
           <td id="L737" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="737"></td>
-          <td id="LC737" class="blob-code blob-code-inner js-file-line">zpdesigner.sigmaitbs.com</td>
-        </tr>
-        <tr>
-          <td id="L738" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="738"></td>
-          <td id="LC738" class="blob-code blob-code-inner js-file-line">zurieskinclinic.com</td>
+          <td id="LC737" class="blob-code blob-code-inner js-file-line">zurieskinclinic.com</td>
         </tr>
   </table>
 </div>
@@ -4337,7 +4333,7 @@
             Copy permalink
           </clipboard-copy>
         </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/davidonzo/Threat-Intel/blame/d663945f3dd865116339a9c2147739bdc9374e4a/lists/latestdomains.txt">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/davidonzo/Threat-Intel/blame/15c99bf71c94b7689b23c6bc1e44841295a96998/lists/latestdomains.txt">View git blame</a></li>
           <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/davidonzo/Threat-Intel/issues/new">Reference in new issue</a></li>
           <li><a class="dropdown-item" id="js-new-discussion" role="menuitem" href="/davidonzo/Threat-Intel/discussions/new">Reference in new discussion</a></li>
       </ul>
