@@ -61362,6 +61362,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||feature.fm^$third-party
 ||fireflyengagement.com^$third-party
 ||fireworkadservices.com^$third-party
+||fireworkapi.com^$third-party
+||fireworktv.com^$third-party
 ||firstimpression.io^$third-party
 ||fisari.com^$third-party
 ||fixionmedia.com^$third-party
