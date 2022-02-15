@@ -61659,7 +61659,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||logo-net.co.uk^$third-party
 ||looksmart.com^$third-party
 ||love-banner.com^$third-party
-||lustre.ai^$third-party
+||lustre.ai^$script,third-party
 ||mad-adz.com^$third-party
 ||magetic.com^$third-party
 ||magnetisemedia.com^$third-party
