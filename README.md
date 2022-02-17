@@ -5,10 +5,19 @@
 [![built with: Python3](https://camo.githubusercontent.com/0d9fbff04202da688cc79c5ffe984bd171edf453b2e41e5e56e55202dd5bdbb2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6275696c74253230776974682d507974686f6e332d7265642e737667)](https://www.python.org/)
 
 ## 📝 Usage
-Add the following url to your AdGuard or Pi-hole blocklists
-```
-https://raw.githubusercontent.com/Luois45/DNSBlocklists/main/list.txt
-```
+Add the following all categories or a few of them to your AdGuard or Pi-hole blocklists
+
+If you do want an optimized list for either AdGuard or Pi-hole replace the url ending `.txt` with `.adguard` or `.pihole`
+
+Category | File url
+--- | ---
+All categories | `https://raw.githubusercontent.com/Luois45/DNSBlocklists/auto-update/list.txt`
+Suspicious | `https://raw.githubusercontent.com/Luois45/DNSBlocklists/auto-update/Suspicious.txt`
+Advertising | `https://raw.githubusercontent.com/Luois45/DNSBlocklists/auto-update/Advertising.txt`
+Tracking & Telemetry | `https://raw.githubusercontent.com/Luois45/DNSBlocklists/auto-update/TrackingAndTelemetry.txt`
+Malicious | `https://raw.githubusercontent.com/Luois45/DNSBlocklists/auto-update/Malicious.txt`
+Facebook | `https://raw.githubusercontent.com/Luois45/DNSBlocklists/auto-update/Facebook.txt`
+Adult content | `https://raw.githubusercontent.com/Luois45/DNSBlocklists/auto-update/Adult content.txt`
 
 ## 🌟 Credits
 <!-- MARKDOWN-AUTO-DOCS:START (JSON_TO_HTML_TABLE:src=./lists.json) -->
