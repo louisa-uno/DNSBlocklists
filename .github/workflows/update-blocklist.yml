@@ -23,7 +23,6 @@ jobs:
     - name: Generate new blocklist
       run: |
         python fetch-lists.py
-        pyhton convert-lists.py
     - name: commit files and push changes
       run: |
         git config --local user.email "action@github.com"
