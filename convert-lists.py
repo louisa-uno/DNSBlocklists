@@ -23,10 +23,10 @@ def convertList(path):
 			adguardOut += line
 			if not "!+ " in line:
 				piholeOut += line
-	with open(path.replace(".txt", ".adguard.txt"), "w",
+	with open(path.replace(".txt", ".adguard"), "w",
 	          encoding="utf-8") as f:
 		f.write(adguardOut)
-	with open(path.replace(".txt", ".pihole.txt"), "w", encoding="utf-8") as f:
+	with open(path.replace(".txt", ".pihole"), "w", encoding="utf-8") as f:
 		f.write(piholeOut)
 
 
