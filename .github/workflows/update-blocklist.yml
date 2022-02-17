@@ -23,8 +23,14 @@ jobs:
     - name: Generate new blocklist
       run: |
         python fetch-lists.py
-    - name: Commit to GitHub
-      uses: EndBug/add-and-commit@v8
-      with:
-        author_name: actions-user
-        author_email: actions@github.com
+        pyhton convert-lists.py
+    - name: commit files and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git fetch https://github.com/Luois45/DNSBlocklists.git HEAD:auto-update
+        git commit -m "Updated blocklists" -a
+        git add -A
+        git pull --rebase
+        git fetch
+        git push -f origin HEAD:auto-update
