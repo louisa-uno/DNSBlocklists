@@ -9,7 +9,7 @@ lists = json.load(open("lists.json"))
 for f in os.listdir():
 	if ".txt" in f:
 		os.remove(f)
-	if not "." in f:
+	if not "." in f and f != "LICENSE":
 		shutil.rmtree(f)
 
 list_file = ""
