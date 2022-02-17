@@ -149,8 +149,8 @@
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
   <meta name="apple-itunes-app" content="app-id=1477376905" />
-    <meta name="twitter:image:src" content="https://opengraph.githubassets.com/fcb0b0ce7956e8c59094417537eb0994f2d8f50af861b1220cbeec09dbad1ed6/davidonzo/Threat-Intel" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="Threat-Intel/latestdomains.txt at master · davidonzo/Threat-Intel" /><meta name="twitter:description" content="Threat-Intel repository. API: https://github.com/davidonzo/apiosintDS - Threat-Intel/latestdomains.txt at master · davidonzo/Threat-Intel" />
-    <meta property="og:image" content="https://opengraph.githubassets.com/fcb0b0ce7956e8c59094417537eb0994f2d8f50af861b1220cbeec09dbad1ed6/davidonzo/Threat-Intel" /><meta property="og:image:alt" content="Threat-Intel repository. API: https://github.com/davidonzo/apiosintDS - Threat-Intel/latestdomains.txt at master · davidonzo/Threat-Intel" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="Threat-Intel/latestdomains.txt at master · davidonzo/Threat-Intel" /><meta property="og:url" content="https://github.com/davidonzo/Threat-Intel" /><meta property="og:description" content="Threat-Intel repository. API: https://github.com/davidonzo/apiosintDS - Threat-Intel/latestdomains.txt at master · davidonzo/Threat-Intel" />
+    <meta name="twitter:image:src" content="https://opengraph.githubassets.com/0db5f3cfbc8c5dfe422a63361c93e42a43aadc123a6c8206856c2cc83b9dded7/davidonzo/Threat-Intel" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="Threat-Intel/latestdomains.txt at master · davidonzo/Threat-Intel" /><meta name="twitter:description" content="Threat-Intel repository. API: https://github.com/davidonzo/apiosintDS - Threat-Intel/latestdomains.txt at master · davidonzo/Threat-Intel" />
+    <meta property="og:image" content="https://opengraph.githubassets.com/0db5f3cfbc8c5dfe422a63361c93e42a43aadc123a6c8206856c2cc83b9dded7/davidonzo/Threat-Intel" /><meta property="og:image:alt" content="Threat-Intel repository. API: https://github.com/davidonzo/apiosintDS - Threat-Intel/latestdomains.txt at master · davidonzo/Threat-Intel" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="Threat-Intel/latestdomains.txt at master · davidonzo/Threat-Intel" /><meta property="og:url" content="https://github.com/davidonzo/Threat-Intel" /><meta property="og:description" content="Threat-Intel repository. API: https://github.com/davidonzo/apiosintDS - Threat-Intel/latestdomains.txt at master · davidonzo/Threat-Intel" />
     
 
 
@@ -160,7 +160,7 @@
   <link rel="assets" href="https://github.githubassets.com/">
   
 
-  <meta name="request-id" content="0401:21AE:96CFA0:11CC375:620DAB82" data-pjax-transient="true"/><meta name="html-safe-nonce" content="953d2258b7061592c7eee2b56b9d44bc46a2b7e99b3f9729a13665cace60e39e" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwNDAxOjIxQUU6OTZDRkEwOjExQ0MzNzU6NjIwREFCODIiLCJ2aXNpdG9yX2lkIjoiMzM3NjQwMzI1MTkzNDg5OTA3NCIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true"/><meta name="visitor-hmac" content="80d87612db9562d649c9aefa10dc0707e44037cb4d186af9b53f2344084c3012" data-pjax-transient="true"/>
+  <meta name="request-id" content="07C1:6AE4:F063D:47F2FC:620DB30E" data-pjax-transient="true"/><meta name="html-safe-nonce" content="305e2102d64de378d97720d8673475335a1cc3a8310f3080a87d2f2788de1b45" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwN0MxOjZBRTQ6RjA2M0Q6NDdGMkZDOjYyMERCMzBFIiwidmlzaXRvcl9pZCI6IjI2MDU2NTAwMjQ2ODAyMzk4ODYiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="148729d6efe1d5ab10cb1030181e3687a2dd23316a652c199ef4ffbce6b335a5" data-pjax-transient="true"/>
 
     <meta name="hovercard-subject-tag" content="repository:185815507" data-pjax-transient>
 
@@ -509,7 +509,7 @@
           spellcheck="false"
           autocomplete="off"
         >
-        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="dX9gUEBfgjTU1JS2KSb8DeAEKtrXrD9DfNeNJGkCG4+KBJKPY41BgxDU5CMwu/urp9J9quaqWuSM5G/jG3smXA==" />
+        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="VIYoEZ8cDr8GZET1h6DX4gVK2Y7Rsn+BZ4igjqDsyH7ESo1mVDLj78+/GqqQSzOe13SOwj7lJatPiSO/Og1BCw==" />
         <input type="hidden" class="js-site-search-type-field" name="type" >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
@@ -811,7 +811,7 @@
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
 </svg><span data-view-component="true" class="d-inline">
           Star
-</span>          <span id="repo-stars-counter-star" aria-label="79 users starred this repository" data-singular-suffix="user starred this repository" data-plural-suffix="users starred this repository" data-pjax-replace="true" title="79" data-view-component="true" class="Counter js-social-count">79</span>
+</span>          <span id="repo-stars-counter-star" aria-label="80 users starred this repository" data-singular-suffix="user starred this repository" data-plural-suffix="users starred this repository" data-pjax-replace="true" title="80" data-view-component="true" class="Counter js-social-count">80</span>
 </a>      <button disabled="disabled" aria-label="You must be signed in to add this repository to a list" type="button" data-view-component="true" class="btn-sm btn BtnGroup-item px-2">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down">
     <path d="M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z"></path>
 </svg>
