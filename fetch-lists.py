@@ -7,7 +7,7 @@ import requests
 lists = json.load(open("lists.json"))
 
 for f in os.listdir():
-	if "allowlist.txt" == f:
+	if f == "allowlist.txt":
 		continue
 	if ".txt" in f:
 		os.remove(f)
