@@ -11,7 +11,7 @@ for f in os.listdir():
 		continue
 	if ".txt" in f:
 		os.remove(f)
-	if not "." in f:
+	if "." not in f:
 		shutil.rmtree(f)
 
 list_file = ""

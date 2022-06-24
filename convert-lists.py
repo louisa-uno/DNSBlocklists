@@ -7,7 +7,7 @@ with open("allowlist.txt", "r", encoding="utf-8") as f:
 
 
 def checkIfValidFile(path):
-	if not ".txt" in path:
+	if ".txt" not in path:
 		return False
 	if "allowlist.txt" in path:
 		return False
