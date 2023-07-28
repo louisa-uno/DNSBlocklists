@@ -1,4 +1,4 @@
-## This is a blocklist for AdGuard and Pi-hole which combines many of the best blocklists.
+## This is a blocklist for AdGuard and Pi-hole which combines many of the best blocklists
 
 ![DNSBlocklists Actions](https://api.meercode.io/badge/Luois45/DNSBlocklists?type=ci-score&lastDay=14)
 [![Update blocklist](https://github.com/Luois45/DNSBlocklists/actions/workflows/update-blocklist.yml/badge.svg)](https://github.com/Luois45/DNSBlocklists/actions/workflows/update-blocklist.yml)
