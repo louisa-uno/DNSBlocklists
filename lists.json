@@ -81,6 +81,13 @@
         "license": "GPLv3"
     },
     {
+        "category": "TrackingAndTelemetry",
+        "name": "Luois45-VRChatAnalyticsBlocklist",
+        "url": "https://raw.githubusercontent.com/Luois45/VRChatAnalyticsBlocklist/master/hosts.txt",
+        "site_url": "https://github.com/Luois45/VRChatAnalyticsBlocklist",
+        "license": "AGPL"
+    },
+    {
         "category": "Malicious",
         "name": "davidonzo-Threat-Intel",
         "url": "https://github.com/davidonzo/Threat-Intel/blob/master/lists/latestdomains.txt",
