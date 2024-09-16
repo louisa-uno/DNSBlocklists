@@ -159,56 +159,62 @@
     },
     {
         "category": "Tracking & Telemetry",
-        "name": "hagezi-tracker-amazon",
+        "name": "hagezi-amazon",
         "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.amazon.txt",
         "license": "GPLv3"
     },
     {
         "category": "Tracking & Telemetry",
-        "name": "hagezi-tracker-apple",
+        "name": "hagezi-apple",
         "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.apple.txt",
         "license": "GPLv3"
     },
     {
         "category": "Tracking & Telemetry",
-        "name": "hagezi-tracker-huawei",
+        "name": "hagezi-huawei",
         "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.huawei.txt",
         "license": "GPLv3"
     },
     {
         "category": "Tracking & Telemetry",
-        "name": "hagezi-tracker-lgwebos",
+        "name": "hagezi-lgwebos",
         "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.lgwebos.txt",
         "license": "GPLv3"
     },
     {
         "category": "Tracking & Telemetry",
-        "name": "hagezi-tracker-oppo-realme",
+        "name": "hagezi-oppo-realme",
         "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.oppo-realme.txt",
         "license": "GPLv3"
     },
     {
         "category": "Tracking & Telemetry",
-        "name": "hagezi-tracker-tiktok-extended",
+        "name": "hagezi-tiktok-extended",
         "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.tiktok.extended.txt",
         "license": "GPLv3"
     },
     {
         "category": "Tracking & Telemetry",
-        "name": "hagezi-tracker-vivo",
+        "name": "hagezi-vivo",
         "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.vivo.txt",
         "license": "GPLv3"
     },
     {
         "category": "Tracking & Telemetry",
-        "name": "hagezi-tracker-winoffice",
+        "name": "hagezi-winoffice",
         "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.winoffice.txt",
         "license": "GPLv3"
     },
     {
         "category": "Tracking & Telemetry",
-        "name": "hagezi-tracker-xiaomi",
+        "name": "hagezi-xiaomi",
         "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.xiaomi.txt",
+        "license": "GPLv3"
+    },
+    {
+        "category": "Mixed",
+        "name": "hagezi-pro-plus",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.plus.txt",
         "license": "GPLv3"
     }
 ]
