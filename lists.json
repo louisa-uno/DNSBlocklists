@@ -216,5 +216,17 @@
         "name": "hagezi-pro-plus",
         "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.plus.txt",
         "license": "GPLv3"
+    },
+    {
+        "category": "Mixed",
+        "name": "osid-big",
+        "url": "https://big.oisd.nl",
+        "license": "GPLv3"
+    },
+    {
+        "category": "Adult content",
+        "name": "osid-nsfw",
+        "url": "https://nsfw.oisd.nl",
+        "license": "GPLv3"
     }
 ]
