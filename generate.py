@@ -1,13 +1,33 @@
+import os
+import requests
 import re
+
+from joblib import Parallel, delayed
 
 from src.config.lists import categories
 
-with open("allowlist.txt", "r", encoding="utf-8") as f:
-	ALLOWLIST = []
-	for line in f.readlines():
-		ALLOWLIST.append(line.replace("\n", ""))
-	print(ALLOWLIST)
+def download_list(url, path):
+	response = requests.get(url)
+	with open(path, "w", encoding="utf-8") as f:
+		if response.status_code != 200:
+			print("Downloading returned status code: " + response.status_code + " for list: " + path)
+		f.write(response.text)
+   
 
+downloads_list = []
+for category in categories.keys():
+	try:
+		os.mkdir(category)
+	except FileExistsError:
+		pass
+	for i in categories[category]:
+		downloads_list.append([i["url"], category + "/" + i["name"] + ".txt"])
+
+Parallel(n_jobs=16)(delayed(download_list)(i[0], i[1]) for i in downloads_list)
+
+
+with open("allowlist.txt", "r", encoding="utf-8") as f:
+	ALLOWLIST = f.read().splitlines()
 
 def convert_pihole_list(list):
 	pihole_list = []
@@ -36,17 +56,10 @@ def skip_line(line):
 	line = line.replace("||", "").replace("@@", "")
 	if any(x in line for x in ALLOWLIST):
 		return True
-	if " " in line:
-		return True
-	if "#" in line or "!" in line:
-		return True
 	if line == "":
 		return True
-	if "/" in line:
-		return True
-	if "@@" in line:  # Unblock param
-		return True
-	if "$" in line:
+	forbidden_symbols = [" ", "#", "!", "/", "$"]
+	if any(x in line for x in forbidden_symbols):
 		return True
 	return False
 
@@ -62,7 +75,6 @@ def convert_list(path):
 			list = []
 			for line in f.read().splitlines():
 				line = convert_line(line)
-				# Skip all allowlist entries
 				if skip_line(line):
 					continue
 				if not is_valid_string(line):
@@ -91,8 +103,9 @@ for category in categories.keys():
 	adguard_category_list = []
 	pihole_category_list = []
 	for i in categories[category]:
-		adguard_category_list += convert_list(i["txt"])
-		pihole_category_list += convert_pihole_list(convert_list(i["txt"]))
+		converted_list = convert_list(i["txt"])
+		adguard_category_list += converted_list
+		pihole_category_list += convert_pihole_list(converted_list)
 	write_lists_to_file(pihole_category_list, adguard_category_list, pihole_category_list, category)
 	adguard_list += adguard_category_list
 	pihole_list += pihole_category_list
