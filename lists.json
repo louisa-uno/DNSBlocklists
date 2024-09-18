@@ -91,7 +91,7 @@
     {
         "category": "Malicious",
         "name": "davidonzo-Threat-Intel",
-        "url": "https://github.com/davidonzo/Threat-Intel/blob/master/lists/latestdomains.txt",
+        "url": "https://raw.githubusercontent.com/davidonzo/Threat-Intel/master/lists/latestdomains.txt",
         "site_url": "https://github.com/davidonzo/Threat-Intel",
         "license": "MIT"
     },
