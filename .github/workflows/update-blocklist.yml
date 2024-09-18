@@ -1,38 +1,35 @@
 name: Update blocklist
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-  workflow_dispatch:
-  schedule:
-    - cron: "0 * * * *"
+    push:
+        branches: [main]
+    pull_request:
+        branches: [main]
+    workflow_dispatch:
+    schedule:
+        - cron: "0 * * * *"
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v2
-      with:
-        python-version: "3.8"
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests
-    - name: Generate new blocklists
-      run: |
-        python fetch-lists.py
-    - name: Convert new blocklists
-      run: |
-        python convert-lists.py
-    - name: commit files and push changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git fetch https://github.com/Luois45/DNSBlocklists.git HEAD:auto-update
-        git add -A
-        git commit -m "Updated blocklists" -a
-        git pull --rebase
-        git fetch
-        git push -f origin HEAD:auto-update
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: Set up Python 3.8
+              uses: actions/setup-python@v2
+              with:
+                  python-version: "3.8"
+            - name: Install dependencies
+              run: |
+                  python -m pip install --upgrade pip
+                  pip install requests
+            - name: Generate new blocklists
+              run: |
+                  python generate.py
+            - name: commit files and push changes
+              run: |
+                  git config --local user.email "action@github.com"
+                  git config --local user.name "GitHub Action"
+                  git fetch https://github.com/Luois45/DNSBlocklists.git HEAD:auto-update
+                  git add -A
+                  git commit -m "Updated blocklists" -a
+                  git pull --rebase
+                  git fetch
+                  git push -f origin HEAD:auto-update
