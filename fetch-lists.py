@@ -1,37 +1,40 @@
-import json
 import os
 import shutil
 
 import requests
 
-lists = json.load(open("lists.json"))
+from src.config.lists import categories
 
-for f in os.listdir():
-	if f == "allowlist.txt":
-		continue
-	if ".txt" in f:
-		os.remove(f)
-	if "." not in f:
-		shutil.rmtree(f)
+print(categories)
+def clear_lists():
+	for i in categories.keys():
+		try:
+			os.remove(i + ".txt")
+		except FileNotFoundError:
+			pass
+		try:
+			shutil.rmtree(i)
+		except FileNotFoundError:
+			pass
+
+clear_lists()
 
 list_file = ""
-for list in range(0, len(lists)):
+for category in categories.keys():
 	try:
-		os.mkdir(lists[list]["category"])
+		os.mkdir(category)
 	except FileExistsError:
 		pass
-	response = requests.get(lists[list]["url"])
-	with open(lists[list]["category"] + "/" + lists[list]["name"] + ".txt",
-	          "w",
-	          encoding="utf-8") as f:
-		f.write(response.text)
+	for i in categories[category]:
+		response = requests.get(i["url"])
+		with open(category + "/" + i["name"] + ".txt", "w", encoding="utf-8") as f:
+			f.write(response.text)
 
 full_list = ""
-for category in os.listdir():
-	if category == ".git" or category == ".github" or "." in category:
-		continue
+for category in categories.keys():
 	category_list = ""
-	for list in os.listdir(category):
+	for i in categories[category]:
+		list = i["name"] + ".txt"
 		with open(category + "/" + list, "r", encoding="utf-8") as f:
 			category_list += f.read() + "\n"
 	with open(category + ".txt", "w", encoding="utf-8") as f:

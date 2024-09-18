@@ -1,69 +1,99 @@
-import os
+import re
+
+from src.config.lists import categories
 
 with open("allowlist.txt", "r", encoding="utf-8") as f:
 	ALLOWLIST = []
 	for line in f.readlines():
 		ALLOWLIST.append(line.replace("\n", ""))
+	print(ALLOWLIST)
 
 
-def checkIfValidFile(path):
-	if ".txt" not in path:
-		return False
-	if "allowlist.txt" in path:
-		return False
-	if ".adguard" in path or ".pihole" in path:
-		return False
-	return True
+def convert_pihole_list(list):
+	pihole_list = []
+	for line in list:
+		if "||" in line and not "*" in line and not "@@" in line:
+			line = line.replace("||", "")
+			if "|" in line:
+				continue
+			pihole_list.append(line)
+	return pihole_list
 
 
-def convertLine(line):
-	if any(x in line for x in ALLOWLIST):
-		return ""
+def convert_line(line):
+	# if any(x in line for x in ALLOWLIST):
+	# return ""
 	line = line.replace("0.0.0.0 ", "").replace("127.0.0.1 ", "")
-	commentSubstrings = ["# ", " #"]
-	if any(x in line for x in commentSubstrings):
-		line = line.split("#")[0].replace(" ", "") + "\n"
-	return line
+	line = line.replace("^", "")
+	line = line.split("$")[0]
+	if line.startswith("||") or line.startswith("@@"):
+		return line
+	else:
+		return "||" + line
 
 
-def convertAdguardLine(line):
-	return line
+def skip_line(line):
+	line = line.replace("||", "").replace("@@", "")
+	if any(x in line for x in ALLOWLIST):
+		return True
+	if " " in line:
+		return True
+	if "#" in line or "!" in line:
+		return True
+	if line == "":
+		return True
+	if "/" in line:
+		return True
+	if "@@" in line:  # Unblock param
+		return True
+	if "$" in line:
+		return True
+	return False
 
 
-def convertPiholeLine(line):
-	if any(x in line for x in ["/", "*", "$", "!", "<", ">"]):
-		return ""
-	line = line.replace("||", "")
-	if "^" in line:
-		line = line.split("^")[0] + "\n"
-	if "#[" in line:
-		line = line.replace("#[", "").replace("]", "")
-	return line
+def is_valid_string(line):
+	s = line.replace("|", "").replace("@@", "").replace("*", "")
+	return re.fullmatch(r'^[-.\w]+$', s) is not None
 
 
-def convertList(path):
-	if checkIfValidFile(path) is False:
-		return
-	with open(path, "r", encoding="utf-8") as f:
-		filteredOut, adguardOut, piholeOut = "", "", ""
-		for line in f.readlines():
-			line = convertLine(line)
-			filteredOut += line
-			adguardOut += convertAdguardLine(line)
-			piholeOut += convertPiholeLine(line)
-	with open(path, "w", encoding="utf-8") as f:
-		f.write(filteredOut)
-	with open(path.replace(".txt", ".adguard"), "w", encoding="utf-8") as f:
-		f.write(adguardOut)
-	with open(path.replace(".txt", ".pihole"), "w", encoding="utf-8") as f:
-		f.write(piholeOut)
-
-
-for category in os.listdir():
-	if category == ".git" or category == ".github" in category:
-		continue
+def convert_list(path):
 	try:
-		for list in os.listdir(category):
-			convertList(category + "/" + list)
-	except NotADirectoryError:
-		convertList(category)
+		with open(path, "r", encoding="utf-8") as f:
+			list = []
+			for line in f.read().splitlines():
+				line = convert_line(line)
+				# Skip all allowlist entries
+				if skip_line(line):
+					continue
+				if not is_valid_string(line):
+					print(line)
+				list.append(line)
+	except FileNotFoundError:
+		print(f"File not found: {path}")
+		return []
+	return list
+
+
+def write_lists_to_file(filtered_out, adguard_out, pihole_out, path):
+	with open(path + ".txt", "w", encoding="utf-8") as f:
+		f.write("\n".join(filtered_out))
+
+	with open(path + ".adguard", "w", encoding="utf-8") as f:
+		f.write("\n".join(adguard_out))
+
+	with open(path + ".pihole", "w", encoding="utf-8") as f:
+		f.write("\n".join(pihole_out))
+
+
+adguard_list = []
+pihole_list = []
+for category in categories.keys():
+	adguard_category_list = []
+	pihole_category_list = []
+	for i in categories[category]:
+		adguard_category_list += convert_list(i["txt"])
+		pihole_category_list += convert_pihole_list(convert_list(i["txt"]))
+	write_lists_to_file(pihole_category_list, adguard_category_list, pihole_category_list, category)
+	adguard_list += adguard_category_list
+	pihole_list += pihole_category_list
+write_lists_to_file(pihole_list, adguard_list, pihole_list, "list")
