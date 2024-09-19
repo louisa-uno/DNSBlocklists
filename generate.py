@@ -32,6 +32,7 @@ with open("allowlist.txt", "r", encoding="utf-8") as f:
 def convert_pihole_list(list):
 	pihole_list = []
 	for line in list:
+		line = line.replace("^", "")
 		if "||" in line and not "*" in line and not "@@" in line:
 			line = line.replace("||", "")
 			if "|" in line:
@@ -46,6 +47,7 @@ def convert_line(line):
 	line = line.replace("0.0.0.0 ", "").replace("127.0.0.1 ", "")
 	line = line.replace("^", "")
 	line = line.split("$")[0]
+	line += "^"
 	if line.startswith("||") or line.startswith("@@"):
 		return line
 	else:
@@ -53,7 +55,7 @@ def convert_line(line):
 
 
 def skip_line(line):
-	line = line.replace("||", "").replace("@@", "")
+	line = line.replace("||", "").replace("@@", "").replace("^", "")
 	if any(x in line for x in ALLOWLIST):
 		return True
 	if line == "":
@@ -65,7 +67,7 @@ def skip_line(line):
 
 
 def is_valid_string(line):
-	s = line.replace("|", "").replace("@@", "").replace("*", "")
+	s = line.replace("|", "").replace("@@", "").replace("*", "").replace("^", "")
 	return re.fullmatch(r'^[-.\w]+$', s) is not None
 
 
