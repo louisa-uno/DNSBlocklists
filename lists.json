@@ -83,9 +83,9 @@
     },
     {
         "category": "TrackingAndTelemetry",
-        "name": "Luois45-VRChatAnalyticsBlocklist",
-        "url": "https://raw.githubusercontent.com/Luois45/VRChatAnalyticsBlocklist/master/hosts.txt",
-        "site_url": "https://github.com/Luois45/VRChatAnalyticsBlocklist",
+        "name": "louisa-uno-VRChatAnalyticsBlocklist",
+        "url": "https://raw.githubusercontent.com/louisa-uno/VRChatAnalyticsBlocklist/master/hosts.txt",
+        "site_url": "https://github.com/louisa-uno/VRChatAnalyticsBlocklist",
         "license": "AGPL"
     },
     {
