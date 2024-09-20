@@ -27,7 +27,7 @@ jobs:
               run: |
                   git config --local user.email "action@github.com"
                   git config --local user.name "GitHub Action"
-                  git fetch https://github.com/Luois45/DNSBlocklists.git HEAD:auto-update
+                  git fetch https://github.com/louisa-uno/DNSBlocklists.git HEAD:auto-update
                   git add -A
                   git commit -m "Updated blocklists" -a
                   git pull --rebase
