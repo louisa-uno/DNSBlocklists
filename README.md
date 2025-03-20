@@ -4,7 +4,7 @@
 [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/louisa-uno/DNSBlocklists/auto-update?label=Last%20DNS%20blocklist%20update)](https://github.com/louisa-uno/DNSBlocklists/actions/workflows/update-blocklist.yml)
 
 [![DeepSource](https://deepsource.io/gh/louisa-uno/DNSBlocklists.svg/?label=active+issues&show_trend=true&token=A9moFT741YyFRfhQ97zeWwKL)](https://deepsource.io/gh/louisa-uno/DNSBlocklists/?ref=repository-badge)
-[![built with: Python3](https://camo.githubusercontent.com/0d9fbff04202da688cc79c5ffe984bd171edf453b2e41e5e56e55202dd5bdbb2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6275696c74253230776974682d507974686f6e332d7265642e737667)](https://www.python.org/)
+[![built with: Python3](https://img.shields.io/badge/python-3.12%2B-blue)](https://www.python.org/)
 
 ## 📝 Usage
 
