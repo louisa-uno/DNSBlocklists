@@ -130,13 +130,6 @@
         "license": "MIT"
     },
     {
-        "category": "Malicious",
-        "name": "ZeroDot1-CoinBlockerLists",
-        "url": "https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser",
-        "site_url": "https://gitlab.com/ZeroDot1/CoinBlockerLists",
-        "license": "GPLv3"
-    },
-    {
         "category": "Facebook",
         "name": "anudeepND-blacklist-facebook",
         "url": "https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt",
