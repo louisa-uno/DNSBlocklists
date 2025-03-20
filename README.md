@@ -1,6 +1,5 @@
 ## This is a blocklist for AdGuard and Pi-hole which combines many of the best blocklists
 
-![DNSBlocklists Actions](https://api.meercode.io/badge/louisa-uno/DNSBlocklists?type=ci-score&lastDay=14)
 [![Update blocklist](https://github.com/louisa-uno/DNSBlocklists/actions/workflows/update-blocklist.yml/badge.svg)](https://github.com/louisa-uno/DNSBlocklists/actions/workflows/update-blocklist.yml)
 [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/louisa-uno/DNSBlocklists/auto-update?label=Last%20DNS%20blocklist%20update)](https://github.com/louisa-uno/DNSBlocklists/actions/workflows/update-blocklist.yml)
 
